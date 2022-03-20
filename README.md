@@ -65,8 +65,8 @@ Eventualmente, a Educalytics deve ser capaz de transmitir o comportamento dos us
 
 Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por meio de um DASHBOARD com os dados mais importantes do ponto de vista da instituição de ensino.
 
-#### Diagrama de Casos de Uso
-(translated to Portuguese).
+#### Diagrama de Casos de Uso:
+
 ![image](https://user-images.githubusercontent.com/61089745/159184157-6fff7a22-2156-4560-a6f5-bcabda70e1ac.png)
 
 
