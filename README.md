@@ -12,16 +12,15 @@
 
 ### **I - RESUMO DO PROJETO**:page_facing_up: 
 
-## The Proposal
+### Proposta:
 
-Developing an application capable of fetching data from an external source i.e. legacy application (called Skillshare), in order to supply users with enough information as to administer an educational institution.  
+Desenvolver um aplicativo capaz de buscar dados de uma fonte externa, ou seja, um aplicativo legado (chamado Skillshare), para fornecer aos usuários informações suficientes para administrar uma instituição de ensino.
 
-The data is produced through the regular use of a e-learning platform. Thus, a history of usage, including user interaction via chats and system logs, assignments, performance of students an user satisfaction are to be extracted, compiled and presented to our clients. 
+Os dados são produzidos através do uso regular de uma plataforma de e-learning. Assim, um histórico de uso, incluindo interação do usuário via chats e logs do sistema, atribuições, desempenho dos alunos e satisfação do usuário devem ser extraídos, compilados e apresentados aos nossos clientes.
 
-Eventually, Educalytics should be able to convey the behaviour the legacy applications' users and provide the educational institution with enough intelligence, supporting its decision making process.
+Eventualmente, a Educalytics deve ser capaz de transmitir o comportamento dos usuários de aplicativos legados e fornecer à instituição de ensino inteligência suficiente, apoiando seu processo de tomada de decisão.
 
-Following from these premises listed above, Educalytics will present an GUI by means of a DASHBOARD with the most important data from the educational institution vantage point.
-
+Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por meio de um DASHBOARD com os dados mais importantes do ponto de vista da instituição de ensino.
 
 ## Project Description
 
