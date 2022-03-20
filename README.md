@@ -202,7 +202,7 @@ Controller.
 ![image](https://i.ibb.co/WxhRFtm/DADOS-DO-CHAT-E-DOS-LOGS.png)
 
 
-## Inovação
+### Inovação
 Criamos o 1º BD a partir dos dados considerados necessários, a partir dos requisitos do cliente e da aplicação legado (Skillshare).  Subsequentemente, alteramos o protagonismo para as entidades que envolvem a ligação entre Alunos, Professores e Disciplina.
 Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 
