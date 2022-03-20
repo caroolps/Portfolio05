@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/61089745/158082449-894548ea-e14d-4de7-896d-12d2a9ec1d74.png)
 
-## FATEC & Health - GANTT CHART:chart_with_upwards_trend:
+## FATEC & IONIC HEALTH - JOBNATION
 
 ### **I - RESUMO DO PROJETO**:page_facing_up: 
 
@@ -22,11 +22,11 @@ Eventualmente, a Educalytics deve ser capaz de transmitir o comportamento dos us
 
 Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por meio de um DASHBOARD com os dados mais importantes do ponto de vista da instituição de ensino.
 
-## Project Description
+## Descrição
 
-In line with the Learning By Project methodology, our team (TECNOCODE) is working hard to deliver an operational application to a partner company called IONIC HEALTH, supported by our professors. Please see the details below.
+Em linha com a metodologia Learning By Project, nossa equipe (TECNOCODE) está trabalhando arduamente para entregar uma aplicação operacional para uma empresa parceira chamada IONIC HEALTH, apoiada por nossos professores. Por favor, veja os detalhes abaixo.
 
-For DASHBOARD (FRONTEND), please acess: https://gitlab.com/rafaelEstevam/front-educalytics
+Para DASHBOARD (FRONTEND), acesse: https://gitlab.com/rafaelEstevam/front-educalytics
 
 ## Educalytics Project Status 
 
