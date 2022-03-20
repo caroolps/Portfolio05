@@ -106,40 +106,32 @@ Controller.
 
 ![image](https://user-images.githubusercontent.com/61089745/159183767-2cab25de-25d6-4c70-a051-04a98087495f.png)
 
-
-- [x] 3.3.2) BACKEND - ETL COURSE DIMENSION ON THE LEGACY APPLICATION.
-
-![image](/uploads/f1b312c4656e2dc08aa6de984c31bc5a/image.png)
-![image](/uploads/06662513e559dbc99ca404eaba33ce69/image.png)
-![image](/uploads/3ebab2b710d5eeb5a0f065a6a5a88d9d/image.png)
-![image](/uploads/a904e258f58fb0c7e434972f2e2c23f8/image.png)
-
 4) EDUCALYTICS's DATABASE (RELATIONAL)
 
 4.1) LOGICAL MODEL
 
-![image](/uploads/17d3c36f5538956ce7511dca92493aa3/image.png)
+![image](https://user-images.githubusercontent.com/61089745/159183917-ca07238a-9570-4461-917f-481f6088cb52.png)
 
 4.2) ENTITY-RELATIONSHIP MODEL
 
-![image](/uploads/503da79cc91e5b0b9c23ce3f66f0eaaa/image.png)
+![image](https://user-images.githubusercontent.com/61089745/159183927-84af1794-bd8d-49a8-a4cc-b9727d9109e6.png)
 
 4.3) EDUCALYTICS's DATABASE (RELATIONAL - MVP SPRINT 01)
 
-![image](/uploads/13d93f79569bc96e400feae3baa779ec/image.png)
+![image](https://user-images.githubusercontent.com/61089745/159183958-f85c1391-26d9-46a9-989b-716eb6e58808.png)
 
 4.4) EDUCALYTICS's DATABASE (RELATIONAL - MVP SPRINT 01)
 
-![image](/uploads/1c0bc6a6ecc72ab2dbfef7997706bc14/image.png)
+![image](https://user-images.githubusercontent.com/61089745/159183968-37286203-59fa-4724-ab71-d9eeb583d77c.png)
 
 4.5) SKILLSHARE DATABASE MODEL
 
-![image](/uploads/d91d13b815360da6147c7a0d410849a4/image.png)
+![image](https://user-images.githubusercontent.com/61089745/159183977-df1d3a86-dc4f-4137-982b-02907d96b264.png)
 
 4.6) DATAMART PERFORMANCE DATABASE MODEL
 
-![image](/uploads/b0d01ac27de674663cb2c9eb39338b01/image.png)
-![image](/uploads/5873d267c59f8cb8a58a11f81419e2f5/image.png)
+![image](https://user-images.githubusercontent.com/61089745/159183992-7ca0ab76-540f-4b0a-96e3-7d20ff48cd41.png)
+![image](https://user-images.githubusercontent.com/61089745/159184002-072023f4-d0cb-4479-a87a-687da8e8c13b.png)
 
 4.7) DATAMART PARTICIPATION ETL INTEGRATION
 
