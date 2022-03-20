@@ -12,178 +12,7 @@
 
 ### **I - RESUMO DO PROJETO**:page_facing_up: 
 
-### Proposta:
-
-Desenvolver um aplicativo capaz de buscar dados de uma fonte externa, ou seja, um aplicativo legado (chamado Skillshare), para fornecer aos usuários informações suficientes para administrar uma instituição de ensino.
-
-Os dados são produzidos através do uso regular de uma plataforma de e-learning. Assim, um histórico de uso, incluindo interação do usuário via chats e logs do sistema, atribuições, desempenho dos alunos e satisfação do usuário devem ser extraídos, compilados e apresentados aos nossos clientes.
-
-Eventualmente, a Educalytics deve ser capaz de transmitir o comportamento dos usuários de aplicativos legados e fornecer à instituição de ensino inteligência suficiente, apoiando seu processo de tomada de decisão.
-
-Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por meio de um DASHBOARD com os dados mais importantes do ponto de vista da instituição de ensino.
-
-## Descrição
-
-Em linha com a metodologia Learning By Project, nossa equipe (TECNOCODE) está trabalhando arduamente para entregar uma aplicação operacional para uma empresa parceira chamada IONIC HEALTH, apoiada por nossos professores. Por favor, veja os detalhes abaixo.
-
-Para DASHBOARD (FRONTEND), acesse: https://gitlab.com/rafaelEstevam/front-educalytics
-
-
-## Features
-
-1) ARQUITETURA DO EDUCALYTICS
-
-![image](https://user-images.githubusercontent.com/61089745/159179873-f5a8d7c4-46a5-4a91-91a1-e0e801627a9f.png)
-
-2) FRONTEND;
-
-2.1) DASHBOARD (MVP);
-
-![image](https://user-images.githubusercontent.com/61089745/159179889-472655a1-6d5e-42a4-9cb2-eea4712c2dea.png)
-
-2.2) TELA DE LOGIN (COM CRIPTOGRAFIA "bcript");
-
-![image](https://user-images.githubusercontent.com/61089745/159179961-dcf5594d-12dc-478b-b458-35f7781dd083.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159179972-f344d07b-364b-4aed-9f0d-b81657fcc252.png)
-
-
-2.3) SOLICITAÇÃO USANDO TOKEN ÚNICO;
-
-![image](https://user-images.githubusercontent.com/61089745/159180013-a0041a64-1b65-45d8-addf-41ac2479f773.png)
-
-2.4) INTEGRAÇÃO CONTÍNUA;
-
-![image](https://user-images.githubusercontent.com/61089745/159180157-a0b5818d-0427-46b8-acdc-74a18df75e9c.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159180165-7dd29c0b-2c8b-45b2-8065-21603f725f8c.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159180282-37075ff4-a3e2-4caf-a144-ddcf97ee4a75.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159180717-f73588d8-e928-4b77-bf04-f0061acfe084.png)
-
-
-2.5) APRESENTAÇÃO DOS RESULTADOS DA PARTICIPAÇÃO DOS ALUNOS VIA GRÁFICOS NO PAINEL;
-![image](https://user-images.githubusercontent.com/61089745/159181410-6229d04f-c7df-4b15-8979-61d8e15d9efd.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159181602-bc46a33f-fd96-4944-9b35-7e400f4809c2.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159181803-d5d3c9a3-a6e0-4d32-9a44-e4afdfc701e1.png)
-
-2.6) RESULTADOS EM CADA AULA;
-
-![image](https://user-images.githubusercontent.com/61089745/159182151-5df61b9d-3654-4446-8038-e1b2e1abb040.png)
-
-3)  BACKEND - AS 8 CAMADAS (MPConConRVSC).
-
-Model, 
-Payload, 
-Config, 
-Converter, 
-Repository, 
-Validator, 
-Services, 
-Controller.
-
-![image](https://user-images.githubusercontent.com/61089745/159182598-11dad1b7-4f34-4e8f-b108-2f1dfc772df2.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159182772-fe3f1484-3eb9-4c07-96d6-aaa1e9545245.png)
-
-3.1) BACKEND - VALIDAÇÃO (usuário e senha).
-
-![image](https://user-images.githubusercontent.com/61089745/159183570-aa8ac41f-46a5-4dac-a5e7-e7f38a69a303.png)
-
-3.2) BACKEND - DATABASE ACCESS (MVP for Sprint 01 = concluded).
-
-![image](https://user-images.githubusercontent.com/61089745/159183668-f5723b53-0a9a-42ce-9114-4d4a4a87f344.png)
-
-3.3) BACKEND - ETL.
-
-![image](https://user-images.githubusercontent.com/61089745/159183744-7e2c9c21-0b80-4aef-8874-6ec2d75805da.png)
-
-
-3.3.1) BACKEND - ETL TIME DIMENSION.
-
-![image](https://user-images.githubusercontent.com/61089745/159183767-2cab25de-25d6-4c70-a051-04a98087495f.png)
-
-4) EDUCALYTICS's DATABASE (RELATIONAL)
-
-4.1) LOGICAL MODEL
-
-![image](https://user-images.githubusercontent.com/61089745/159183917-ca07238a-9570-4461-917f-481f6088cb52.png)
-
-4.2) ENTITY-RELATIONSHIP MODEL
-
-![image](https://user-images.githubusercontent.com/61089745/159183927-84af1794-bd8d-49a8-a4cc-b9727d9109e6.png)
-
-4.3) EDUCALYTICS's DATABASE (RELATIONAL - MVP SPRINT 01)
-
-![image](https://user-images.githubusercontent.com/61089745/159183958-f85c1391-26d9-46a9-989b-716eb6e58808.png)
-
-4.4) EDUCALYTICS's DATABASE (RELATIONAL - MVP SPRINT 01)
-
-![image](https://user-images.githubusercontent.com/61089745/159183968-37286203-59fa-4724-ab71-d9eeb583d77c.png)
-
-4.5) SKILLSHARE DATABASE MODEL
-
-![image](https://user-images.githubusercontent.com/61089745/159183977-df1d3a86-dc4f-4137-982b-02907d96b264.png)
-
-4.6) DATAMART PERFORMANCE DATABASE MODEL
-
-![image](https://user-images.githubusercontent.com/61089745/159183992-7ca0ab76-540f-4b0a-96e3-7d20ff48cd41.png)
-![image](https://user-images.githubusercontent.com/61089745/159184002-072023f4-d0cb-4479-a87a-687da8e8c13b.png)
-
-4.7) DATAMART PARTICIPATION ETL INTEGRATION
-
-![image](https://i.ibb.co/3m6V6n6/DATAMART-ENGAJAMENTO.png)
-
-4.8) DATAMART PARTICIPATION - EXTRACTING DATA FROM MONGO DB
-
-![image](https://i.ibb.co/ssS7yBm/EXTRACAO-MONGO-DB.png)
-
-4.9) DATAMART PARTICIPATION - EXTRACTING FROM DIMENSION TO FACT
-
-![image](https://i.ibb.co/W27gGDW/EXTRACAO-DIMENSOES-FATO.png)
-
-5) EDUCALYTICS's DATABASE (NON-RELATIONAL)
-
-![image](https://i.ibb.co/pXyJ1qQ/DATAMART-02-ENGAJAMENTO.png)
-
-5.1) DATAMART PARTICIPATION STRUCTURE
-
-![image](https://i.ibb.co/b63mVjP/MODELAGEM-ATUALIZADA.png)
-
-5.1.1) DATAMART PARTICIPATION - CONNECTION COLLECTION
-
-![image](https://i.ibb.co/kMLBtPv/COLLECTION-CONNECTIONS.png)
-
-5.1.2) DATAMART PARTICIPATION - MESSAGES COLLECTION
-
-![image](https://i.ibb.co/NNj5jnf/COLLECTION-MESSAGES.png)
-
-5.2) NON-RELATIONAL DATABASE ETL
-
-![image](https://i.ibb.co/wMrLpBB/ETL-BDNR.png)
-
-5.3) CHAT+LOGS REGISTERS INSERTED ON MONGO DB CLOUD
-![image](https://i.ibb.co/WxhRFtm/DADOS-DO-CHAT-E-DOS-LOGS.png)
-
-## Milestones
-
-| Sprint | Data  | Video                                       |
-|--------|-------|---------------------------------------------|
-| 1      | September 19th, 2021 |---------------------------------------------|
-| 2      | October 10th, 2021 |---------------------------------------------|
-| 3      | November 7th, 2021 |---------------------------------------------|
-| 4      | November 28th, 2021 |---------------------------------------------|
-
-
-
-
-## Elicitation, Story Cards an Requirements
-### The Problem we aim to solve
-
-(translated to Portuguese).
+Neste quinto Projeto Integrador a FATEC trouxe o Cliente "IONIC HEALTH" para que pudéssemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. 
 
 O cliente busca obter indicadores e avaliar o uso e gerenciamento de sua plataforma de cursos, buscando os alunos que estão com boa frequência nas aulas, que entra em contato por chat para sanar dúvidas e avaliação das aulas dadas.
 
@@ -199,11 +28,8 @@ Com base nesse briefing, solicita uma plataforma funcional com capacidade analí
 * Guardar logs e histórico das conversas do chat;
 
 
-## Requirements
+#### Requisitos Funcionais
 
-#### Functional
-
-(translated to Portuguese).
 
 | Functional Requirements                                                 | Reference | Priority | Sprint |
 |------------------------------------------------------------------------|--------|------------|--------|
@@ -216,9 +42,8 @@ Com base nesse briefing, solicita uma plataforma funcional com capacidade analí
 
 
 
-#### Non-functional
+#### Requisitos Não Funcionais
 
-(translated to Portuguese).
 
 | Non-functional Requirements                            | Reference | 
 |------------------------------------------------------|--------|
@@ -230,39 +55,154 @@ Com base nesse briefing, solicita uma plataforma funcional com capacidade analí
 
 
 
-## User Stories
+### Proposta:
+
+Desenvolver um aplicativo capaz de buscar dados de uma fonte externa, ou seja, um aplicativo legado (chamado Skillshare), para fornecer aos usuários informações suficientes para administrar uma instituição de ensino.
+
+Os dados são produzidos através do uso regular de uma plataforma de e-learning. Assim, um histórico de uso, incluindo interação do usuário via chats e logs do sistema, atribuições, desempenho dos alunos e satisfação do usuário devem ser extraídos, compilados e apresentados aos nossos clientes.
+
+Eventualmente, a Educalytics deve ser capaz de transmitir o comportamento dos usuários de aplicativos legados e fornecer à instituição de ensino inteligência suficiente, apoiando seu processo de tomada de decisão.
+
+Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por meio de um DASHBOARD com os dados mais importantes do ponto de vista da instituição de ensino.
+
+#### Diagrama de Casos de Uso
 (translated to Portuguese).
-
-| Quem? | O que? | Por quê? |
-|-------|--------|----------|
-| Aplicação Legado | Fornece plataforma de educação e gera dados históricos | Dados que serão tratados e analisados
-| IONIC Health | Quer analisar dados históricos para a tomada de decisão | Para mapeamento de aproveitamento etc. dos cursos EAD |
-| Tecnocode | Desenvolve a EDUCALYTICS | Para aplicar na prática os conhecimentos de programação, banco de dados (não)relacional, data warehouse, continuous inntegration,  além de adquirir experiência profissional em desenvolvimento de projetos |
+![image](https://user-images.githubusercontent.com/61089745/159184157-6fff7a22-2156-4560-a6f5-bcabda70e1ac.png)
 
 
-## Usability:
-(translated to Portuguese).
+#### FEATURES:
 
-**HEURISTIC EVALUATION**
+1- ARQUITETURA DO EDUCALYTICS
 
-* Correspondência entre o sistema e o mundo real
+![image](https://user-images.githubusercontent.com/61089745/159179873-f5a8d7c4-46a5-4a91-91a1-e0e801627a9f.png)
 
-O sistema possuirá uma interface intuitiva com menus e botões de ações de fácil entendimento, utilizando nomenclatura familiar aos seus usuários. As ações tais como acompanhamento dos indicadores por meio de Dashboard, chat por colaborador, avaliação por aula, induzindo os caminhos para que a utilização seja fluída.
+2- FRONTEND;
 
-* Controle do usuário e liberdade
+2.1- DASHBOARD (MVP);
 
-Com o sistema intuitivo, o usuário de nível de gerenciamento possuirá uma certa liberdade no sistema, minimizando o número de cliques e de erros, pois conseguirá identificar claramente as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em identificar cada gráfico proposto no dashboard, para fim de avaliar melhorias entre os alunos e colaboradores que realizam algum curso na plataforma.
+![image](https://user-images.githubusercontent.com/61089745/159179889-472655a1-6d5e-42a4-9cb2-eea4712c2dea.png)
 
-* Design estético e minimalista
+2.2- TELA DE LOGIN (COM CRIPTOGRAFIA "bcript");
 
-Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com gráficos de cards, donuts e ícones familiares. 
+![image](https://user-images.githubusercontent.com/61089745/159179961-dcf5594d-12dc-478b-b458-35f7781dd083.png)
 
-## Diagrama de Casos de Uso
-(translated to Portuguese).
-![image](/uploads/6be9e0ac6a0faf868dde8634073d6984/image.png)
+![image](https://user-images.githubusercontent.com/61089745/159179972-f344d07b-364b-4aed-9f0d-b81657fcc252.png)
 
-## Innovation
-(translated to Portuguese).
+
+2.3- SOLICITAÇÃO USANDO TOKEN ÚNICO;
+
+![image](https://user-images.githubusercontent.com/61089745/159180013-a0041a64-1b65-45d8-addf-41ac2479f773.png)
+
+2.4- INTEGRAÇÃO CONTÍNUA;
+
+![image](https://user-images.githubusercontent.com/61089745/159180157-a0b5818d-0427-46b8-acdc-74a18df75e9c.png)
+
+![image](https://user-images.githubusercontent.com/61089745/159180165-7dd29c0b-2c8b-45b2-8065-21603f725f8c.png)
+
+![image](https://user-images.githubusercontent.com/61089745/159180282-37075ff4-a3e2-4caf-a144-ddcf97ee4a75.png)
+
+![image](https://user-images.githubusercontent.com/61089745/159180717-f73588d8-e928-4b77-bf04-f0061acfe084.png)
+
+
+2.5- APRESENTAÇÃO DOS RESULTADOS DA PARTICIPAÇÃO DOS ALUNOS VIA GRÁFICOS NO PAINEL;
+![image](https://user-images.githubusercontent.com/61089745/159181410-6229d04f-c7df-4b15-8979-61d8e15d9efd.png)
+
+![image](https://user-images.githubusercontent.com/61089745/159181602-bc46a33f-fd96-4944-9b35-7e400f4809c2.png)
+
+![image](https://user-images.githubusercontent.com/61089745/159181803-d5d3c9a3-a6e0-4d32-9a44-e4afdfc701e1.png)
+
+2.6- RESULTADOS EM CADA AULA;
+
+![image](https://user-images.githubusercontent.com/61089745/159182151-5df61b9d-3654-4446-8038-e1b2e1abb040.png)
+
+3-  BACKEND - AS 8 CAMADAS (MPConConRVSC).
+
+Model, 
+Payload, 
+Config, 
+Converter, 
+Repository, 
+Validator, 
+Services, 
+Controller.
+
+![image](https://user-images.githubusercontent.com/61089745/159182598-11dad1b7-4f34-4e8f-b108-2f1dfc772df2.png)
+
+![image](https://user-images.githubusercontent.com/61089745/159182772-fe3f1484-3eb9-4c07-96d6-aaa1e9545245.png)
+
+3.1- BACKEND - VALIDAÇÃO (usuário e senha).
+
+![image](https://user-images.githubusercontent.com/61089745/159183570-aa8ac41f-46a5-4dac-a5e7-e7f38a69a303.png)
+
+3.2- BACKEND - ACESSO A BANCO DE DADOS
+
+![image](https://user-images.githubusercontent.com/61089745/159183668-f5723b53-0a9a-42ce-9114-4d4a4a87f344.png)
+
+3.3- BACKEND - ETL.
+
+![image](https://user-images.githubusercontent.com/61089745/159183744-7e2c9c21-0b80-4aef-8874-6ec2d75805da.png)
+
+
+3.3.1- BACKEND - ETL TIME DIMENSION.
+
+![image](https://user-images.githubusercontent.com/61089745/159183767-2cab25de-25d6-4c70-a051-04a98087495f.png)
+
+4- EDUCALYTICS's DATABASE (RELATIONAL)
+
+4.1- LOGICAL MODEL
+
+![image](https://user-images.githubusercontent.com/61089745/159183917-ca07238a-9570-4461-917f-481f6088cb52.png)
+
+4.2- MODELO DE RELACIONAMENTO DE ENTIDADE
+
+![image](https://user-images.githubusercontent.com/61089745/159183927-84af1794-bd8d-49a8-a4cc-b9727d9109e6.png)
+
+4.3 MODELO DE BANCO DE DADOS DE HABILIDADES
+
+![image](https://user-images.githubusercontent.com/61089745/159183977-df1d3a86-dc4f-4137-982b-02907d96b264.png)
+
+4.4 MODELO DE BANCO DE DADOS DE DESEMPENHO DA DATAMART
+
+![image](https://user-images.githubusercontent.com/61089745/159183992-7ca0ab76-540f-4b0a-96e3-7d20ff48cd41.png)
+![image](https://user-images.githubusercontent.com/61089745/159184002-072023f4-d0cb-4479-a87a-687da8e8c13b.png)
+
+4.5 INTEGRAÇÃO ETL DA PARTICIPAÇÃO DO DATAMART
+
+![image](https://i.ibb.co/3m6V6n6/DATAMART-ENGAJAMENTO.png)
+
+4.6 PARTICIPAÇÃO DO DATAMART - EXTRAÇÃO DE DADOS DO MONGO DB
+
+![image](https://i.ibb.co/ssS7yBm/EXTRACAO-MONGO-DB.png)
+
+4.7 PARTICIPAÇÃO DO DATAMART - EXTRAINDO DA DIMENSÃO AO FATO
+
+![image](https://i.ibb.co/W27gGDW/EXTRACAO-DIMENSOES-FATO.png)
+
+5- BASE DE DADOS(NÃO RELACIONAL)
+
+![image](https://i.ibb.co/pXyJ1qQ/DATAMART-02-ENGAJAMENTO.png)
+
+5.1- ESTRUTURA DE PARTICIPAÇÃO DO DATAMART
+
+![image](https://i.ibb.co/b63mVjP/MODELAGEM-ATUALIZADA.png)
+
+5.1.1-  PARTICIPAÇÃO DO DATAMART - COBRANÇA DE CONEXÃO
+
+![image](https://i.ibb.co/kMLBtPv/COLLECTION-CONNECTIONS.png)
+
+5.1.2- PARTICIPAÇÃO DO DATAMART - COLETA DE MENSAGENS
+
+![image](https://i.ibb.co/NNj5jnf/COLLECTION-MESSAGES.png)
+
+5.2- BANCO DE DADOS NÃO RELACIONAL ETL
+
+![image](https://i.ibb.co/wMrLpBB/ETL-BDNR.png)
+
+5.3- REGISTRO DE CHAT+LOGS INSERIDO NO MONGO DB CLOUD
+![image](https://i.ibb.co/WxhRFtm/DADOS-DO-CHAT-E-DOS-LOGS.png)
+
+
+## Inovação
 Criamos o 1º BD a partir dos dados considerados necessários, a partir dos requisitos do cliente e da aplicação legado (Skillshare).  Subsequentemente, alteramos o protagonismo para as entidades que envolvem a ligação entre Alunos, Professores e Disciplina.
 Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 
@@ -276,9 +216,7 @@ No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados
 
 
 
-
-## Ferramentas Tecnologicas
-💻
+### **II - TECNOLOGIAS**:iphone:
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -296,3 +234,12 @@ No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 - Git Flow
 - OBS Studio / Kdenlive
+
+### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
+
+
+### **IV - APRENDIZADOS EFETIVOS**:closed_book:
+
+**Hard Skills Efetivamente Desenvolvidas:**
+
+**Soft Skills Efetivamente Desenvolvidas:**
