@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/61089745/158082449-894548ea-e14d-4de7-896d-12d2a9ec1d74.png)
 
-## FATEC & IONIC HEALTH - EDUCALYTICS
+## FATEC & IONIC HEALTH - EDUCALYTICS:mortar_board:
 
 ### **I - RESUMO DO PROJETO**:page_facing_up: 
 
