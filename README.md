@@ -225,16 +225,16 @@ No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados
 - IntelliJ/Eclipse: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado os ambientes Eclipse e Intellij de desenvolvimento integrado, escrito em Java. 
 
 ![image](https://user-images.githubusercontent.com/61089745/161391346-b359a7ca-73c9-460d-8814-b52cc435d222.png)
-- VS CODE:
+- VS CODE: O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389691-e18df3bc-2b7d-41bd-b70b-fd59e8d8b266.png)
 - JavaScript/NodeJS: JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391408-584a934b-73f9-4c74-b463-a8b2d9b71ee0.png)
-- MicrosoftSQLServer:
+- MicrosoftSQLServer: O Microsoft SQL Server é um sistema gerenciador de Banco de dados relacional desenvolvido pela Sybase em parceria com a Microsoft
 
 ![image](https://user-images.githubusercontent.com/61089745/161391358-e87e6d1a-63ec-40bc-b19d-422df7414cea.png)
-- MySQL:
+- MySQL: O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389774-0acaa3e2-478b-444f-aeba-2f6ad4fec469.png)
 - React: O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
@@ -246,7 +246,7 @@ No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados
 - GitLab/GitFlow: O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, gerenciamento de tarefas e CI/CD.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391438-d192b5d7-b7b2-4acc-89f8-e4db42c70c97.png)
-- MongoDB:
+- MongoDB: É um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389851-2c62d470-bb85-479e-9ac2-67c9346a3ee5.png)
 - OBS Studio/Kdenlive: É um programa de streaming e gravação gratuito.
