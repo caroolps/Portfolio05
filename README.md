@@ -31,12 +31,12 @@ Com base nesse briefing, solicita uma plataforma funcional com capacidade analí
 #### Requisitos Funcionais
 
 
-| Functional Requirements                                                 | Reference | Priority | Sprint |
-|------------------------------------------------------------------------|--------|------------|--------|
+| Functional Requirements                                                 | Reference |
+|------------------------------------------------------------------------|--------|
 | Dashboard: apresentar dados ao cliente (via backend e banco de dados 01 relacional)        | RF01   | 1          | 1      |
 | Continuous Integration | RF02   | 1          | 4      |
 | Tratar Logs| RF03   | 1          | 2      |
-| Tratar Chats T   | RF04  | 1          | 3     |
+| Tratar Chats   | RF04  | 1          | 3     |
 | Acumular dados históricos tratados e gerar inteligência para o client, via DASHBOARD |RF05	| 1	| 4
 
 
@@ -57,11 +57,11 @@ Com base nesse briefing, solicita uma plataforma funcional com capacidade analí
 
 ### Proposta:
 
-Desenvolver um aplicativo capaz de buscar dados de uma fonte externa, ou seja, um aplicativo legado (chamado Skillshare), para fornecer aos usuários informações suficientes para administrar uma instituição de ensino.
+Desenvolver uma aplicação capaz de buscar dados de uma fonte externa, ou seja, uma aplicação legada (chamado Skillshare), para fornecer aos usuários informações suficientes para administrar uma instituição de ensino.
 
 Os dados são produzidos através do uso regular de uma plataforma de e-learning. Assim, um histórico de uso, incluindo interação do usuário via chats e logs do sistema, atribuições, desempenho dos alunos e satisfação do usuário devem ser extraídos, compilados e apresentados aos nossos clientes.
 
-Eventualmente, a Educalytics deve ser capaz de transmitir o comportamento dos usuários de aplicativos legados e fornecer à instituição de ensino inteligência suficiente, apoiando seu processo de tomada de decisão.
+Eventualmente, a Educalytics deve ser capaz de transmitir o comportamento dos usuários de aplicações legados e fornecer à instituição de ensino inteligência suficiente, apoiando seu processo de tomada de decisão.
 
 Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por meio de um DASHBOARD com os dados mais importantes do ponto de vista da instituição de ensino.
 
@@ -107,9 +107,6 @@ Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por 
 2.5- APRESENTAÇÃO DOS RESULTADOS DA PARTICIPAÇÃO DOS ALUNOS VIA GRÁFICOS NO PAINEL;
 ![image](https://user-images.githubusercontent.com/61089745/159181410-6229d04f-c7df-4b15-8979-61d8e15d9efd.png)
 
-![image](https://user-images.githubusercontent.com/61089745/159181602-bc46a33f-fd96-4944-9b35-7e400f4809c2.png)
-
-![image](https://user-images.githubusercontent.com/61089745/159181803-d5d3c9a3-a6e0-4d32-9a44-e4afdfc701e1.png)
 
 2.6- RESULTADOS EM CADA AULA;
 
@@ -125,8 +122,6 @@ Repository,
 Validator, 
 Services, 
 Controller.
-
-![image](https://user-images.githubusercontent.com/61089745/159182598-11dad1b7-4f34-4e8f-b108-2f1dfc772df2.png)
 
 ![image](https://user-images.githubusercontent.com/61089745/159182772-fe3f1484-3eb9-4c07-96d6-aaa1e9545245.png)
 
@@ -157,48 +152,20 @@ Controller.
 
 ![image](https://user-images.githubusercontent.com/61089745/159183927-84af1794-bd8d-49a8-a4cc-b9727d9109e6.png)
 
-4.3 MODELO DE BANCO DE DADOS DE HABILIDADES
-
-![image](https://user-images.githubusercontent.com/61089745/159183977-df1d3a86-dc4f-4137-982b-02907d96b264.png)
-
-4.4 MODELO DE BANCO DE DADOS DE DESEMPENHO DA DATAMART
-
-![image](https://user-images.githubusercontent.com/61089745/159183992-7ca0ab76-540f-4b0a-96e3-7d20ff48cd41.png)
-![image](https://user-images.githubusercontent.com/61089745/159184002-072023f4-d0cb-4479-a87a-687da8e8c13b.png)
-
-4.5 INTEGRAÇÃO ETL DA PARTICIPAÇÃO DO DATAMART
-
-![image](https://i.ibb.co/3m6V6n6/DATAMART-ENGAJAMENTO.png)
-
-4.6 PARTICIPAÇÃO DO DATAMART - EXTRAÇÃO DE DADOS DO MONGO DB
+4.3 PARTICIPAÇÃO DO DATAMART - EXTRAÇÃO DE DADOS DO MONGO DB
 
 ![image](https://i.ibb.co/ssS7yBm/EXTRACAO-MONGO-DB.png)
 
-4.7 PARTICIPAÇÃO DO DATAMART - EXTRAINDO DA DIMENSÃO AO FATO
-
-![image](https://i.ibb.co/W27gGDW/EXTRACAO-DIMENSOES-FATO.png)
 
 5- BASE DE DADOS(NÃO RELACIONAL)
 
 ![image](https://i.ibb.co/pXyJ1qQ/DATAMART-02-ENGAJAMENTO.png)
 
-5.1- ESTRUTURA DE PARTICIPAÇÃO DO DATAMART
-
-![image](https://i.ibb.co/b63mVjP/MODELAGEM-ATUALIZADA.png)
-
-5.1.1-  PARTICIPAÇÃO DO DATAMART - COBRANÇA DE CONEXÃO
-
-![image](https://i.ibb.co/kMLBtPv/COLLECTION-CONNECTIONS.png)
-
-5.1.2- PARTICIPAÇÃO DO DATAMART - COLETA DE MENSAGENS
+5.1- PARTICIPAÇÃO DO DATAMART - COLETA DE MENSAGENS
 
 ![image](https://i.ibb.co/NNj5jnf/COLLECTION-MESSAGES.png)
 
-5.2- BANCO DE DADOS NÃO RELACIONAL ETL
-
-![image](https://i.ibb.co/wMrLpBB/ETL-BDNR.png)
-
-5.3- REGISTRO DE CHAT+LOGS INSERIDO NO MONGO DB CLOUD
+5.2- REGISTRO DE CHAT+LOGS INSERIDO NO MONGO DB CLOUD
 ![image](https://i.ibb.co/WxhRFtm/DADOS-DO-CHAT-E-DOS-LOGS.png)
 
 
