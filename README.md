@@ -186,37 +186,37 @@ No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados
 ### **II - TECNOLOGIAS**:iphone:
 
 ![image](https://user-images.githubusercontent.com/61089745/161389576-a377fd09-2c54-40b6-9a7e-c000dd778977.png)
-- Java: É uma linguagem de programação orientada a objetos
+- Java: É uma linguagem de programação orientada a objetos.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391318-463c5040-eaab-4d45-9ff2-6dfcf4f81991.png)
 - IntelliJ/Eclipse: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado os ambientes Eclipse e Intellij de desenvolvimento integrado, escrito em Java. 
 
 ![image](https://user-images.githubusercontent.com/61089745/161391346-b359a7ca-73c9-460d-8814-b52cc435d222.png)
-- VS CODE: O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS.
+- VS CODE: O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Foi usado para rodar a aplicação frontend e backend no ambiente de alguns integrantes do grupo.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389691-e18df3bc-2b7d-41bd-b70b-fd59e8d8b266.png)
-- JavaScript/NodeJS: JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS.
+- JavaScript/NodeJS: JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS. Foi usada essa linguagem para desenvolver o frontend.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391408-584a934b-73f9-4c74-b463-a8b2d9b71ee0.png)
-- MicrosoftSQLServer: O Microsoft SQL Server é um sistema gerenciador de Banco de dados relacional desenvolvido pela Sybase em parceria com a Microsoft
+- MicrosoftSQLServer: O Microsoft SQL Server é um sistema gerenciador de Banco de dados relacional desenvolvido pela Sybase em parceria com a Microsoft. Foi usado para o desenvolvimento do ETL.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391358-e87e6d1a-63ec-40bc-b19d-422df7414cea.png)
-- MySQL: O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.
+- MySQL: O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. Foi usado para o desenvolvimento do banco relacional da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389774-0acaa3e2-478b-444f-aeba-2f6ad4fec469.png)
 - React: O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389788-7f4c74dd-fa4b-410a-9e51-376cf8c33817.png)
-- Insomnia/Postman: É um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs.
+- Insomnia/Postman: É um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Utizada para testar o GET, PUT, POST e DELETE das classes controllers da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389814-314472c1-6046-4348-93ff-c5f1781d0f82.png)
-- GitLab/GitFlow: O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, gerenciamento de tarefas e CI/CD.
+- GitLab/GitFlow: O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, gerenciamento de tarefas e CI/CD. Foi usado para armazenar o código do projeto e desenvolver o CI/GitFLow da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391438-d192b5d7-b7b2-4acc-89f8-e4db42c70c97.png)
-- MongoDB: É um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.
+- MongoDB: É um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas. Foi usado para armazenar os logs do chat da aplicação legada no banco não relacional.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389851-2c62d470-bb85-479e-9ac2-67c9346a3ee5.png)
-- OBS Studio/Kdenlive: É um programa de streaming e gravação gratuito.
+- OBS Studio/Kdenlive: É um programa de streaming e gravação gratuito. Usada para gravar vídeos das sprints.
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
