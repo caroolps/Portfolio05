@@ -179,17 +179,17 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 - No BANCO DE DADOS 01 (RELACIONAL) - Primeira versão com todos os dados necessários (será decomposto);
 - No BANCO DE DADOS 02 (NÃO-RELACIONAL) - Receberá tabelas do BD01, segundo critérios de performance;
 - Distribuição dos BD - Se necessária a clusterização / fragmentação;
-- No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados;
+- No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados.
 
 
 
 ### **II - TECNOLOGIAS**:iphone:
 
 ![image](https://user-images.githubusercontent.com/61089745/161389576-a377fd09-2c54-40b6-9a7e-c000dd778977.png)
-- Java: É uma linguagem de programação orientada a objetos.
+- Java: É uma linguagem de programação orientada a objetos. Foi utilizado essa linguagem para o desenvolvimento do backend da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391318-463c5040-eaab-4d45-9ff2-6dfcf4f81991.png)
-- IntelliJ/Eclipse: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado os ambientes Eclipse e Intellij de desenvolvimento integrado, escrito em Java. 
+- IntelliJ/Eclipse: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado os ambientes Eclipse e Intellij para desenvolvimento integrado, escrito em Java. 
 
 ![image](https://user-images.githubusercontent.com/61089745/161391346-b359a7ca-73c9-460d-8814-b52cc435d222.png)
 - VS CODE: O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Foi usado para rodar a aplicação frontend e backend no ambiente de alguns integrantes do grupo.
@@ -210,7 +210,7 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 - Insomnia/Postman: É um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Utizada para testar o GET, PUT, POST e DELETE das classes controllers da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/161389814-314472c1-6046-4348-93ff-c5f1781d0f82.png)
-- GitLab/GitFlow: O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, gerenciamento de tarefas e CI/CD. Foi usado para armazenar o código do projeto e desenvolver o CI/GitFLow da aplicação.
+- GitLab/GitFlow: O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, gerenciamento de tarefas e CI/CD. Foi usado para armazenar o código do projeto e desenvolver o CI/CD GitFLow da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/161391438-d192b5d7-b7b2-4acc-89f8-e4db42c70c97.png)
 - MongoDB: É um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas. Foi usado para armazenar os logs do chat da aplicação legada no banco não relacional.
@@ -219,10 +219,21 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 - OBS Studio/Kdenlive: É um programa de streaming e gravação gratuito. Usada para gravar vídeos das sprints.
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
+Desenvolvi o backend da aplicação criando as classes, utilizei query dinâmica, realizei testes unitários, participei do inicio do desenvolvimento do CI
 
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
 **Hard Skills Efetivamente Desenvolvidas:**
+Aprimorei os conhecimentos em backend 
+Query Dinâmica
+Validação por Token
+Aprimorei conhecimento em testes unitários utilizando JUnit
+Conhecimento em CI e GitFlow
 
 **Soft Skills Efetivamente Desenvolvidas:**
+Trabalho em equipe
+Ajuda mutua
+Buscar conhecimentos através de cursos e tirar dúvidas com os professores
+Planejamento
+Resiliência
