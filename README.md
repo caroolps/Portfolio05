@@ -174,12 +174,12 @@ Criamos o 1º BD a partir dos dados considerados necessários, a partir dos requ
 Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 
 
-No FRONTEND - criptografia e token.
-No BACKEND - arquitetura em oito camadas;
-No BANCO DE DADOS 01 (RELACIONAL) - Primeira versão com todos os dados necessários (será decomposto);
-No BANCO DE DADOS 02 (NÃO-RELACIONAL) - Receberá tabelas do BD01, segundo critérios de performance;
-Distribuição dos BD - Se necessária a clusterização / fragmentação;
-No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados;
+- No FRONTEND - criptografia e token;
+- No BACKEND - arquitetura em oito camadas;
+- No BANCO DE DADOS 01 (RELACIONAL) - Primeira versão com todos os dados necessários (será decomposto);
+- No BANCO DE DADOS 02 (NÃO-RELACIONAL) - Receberá tabelas do BD01, segundo critérios de performance;
+- Distribuição dos BD - Se necessária a clusterização / fragmentação;
+- No DATA WAREHOUSE - Ferramentas de relatório, de ETL no terceiro banco de dados;
 
 
 
