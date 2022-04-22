@@ -219,9 +219,22 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 - OBS Studio/Kdenlive: É um programa de streaming e gravação gratuito. Usada para gravar vídeos das sprints.
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
+
 Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para compor a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás das features que não tinhámos conhecimento.
 
-Portanto, optei por continuar no desenvolvimento do backend da aplicação criando as classes e demais camadas do sistema, no backend foram desenvolvidos as classes para integração com o frontend e para o ETL.
+Portanto, optei por continuar no desenvolvimento do backend da aplicação criando as entidades e demais camadas do sistema.
+
+Desenvolvi no backend as classes para integração com o frontend e para o ETL, sendo:
+- Login;
+- Profile;
+- FactParticipation;
+- FatcPerformance;
+- Programme;
+- Student;
+- Time;
+- TSS;
+- Course;
+- DimTime.
 
 ![image](https://user-images.githubusercontent.com/61089745/164789664-7ac7c21b-e7b5-47f4-9137-2220ed495ff9.png)
 
@@ -233,12 +246,12 @@ No backend utilizei features novas que não tinha conhecimento como Query dinâm
 ![image](https://user-images.githubusercontent.com/61089745/164790916-57154d14-2407-476b-8e3a-27a93d700716.png)
 
 
-Implemente Testes Unitários para cobertura do código e integração com o CI;
+Implementei Testes Unitários para cobertura do código e integração com o CI;
 
 ![image](https://user-images.githubusercontent.com/61089745/164792269-6d8a12bf-e999-4915-82d4-63926b337d0e.png)
 
 
-Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab.
+Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab, criando imagem no docker e configurando a pipeline.
 
 ![image](https://user-images.githubusercontent.com/61089745/164791429-9f5b27f9-69c1-4a84-9248-cb9a1fe5ed1d.png)
 
@@ -248,13 +261,20 @@ Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab.
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
 **Hard Skills Efetivamente Desenvolvidas:**
-Aprimorei os conhecimentos em backend utilizando novas feautures no backend como Query Dinâmica e Validação por Token;
-Conhecimento sobre a ferramenta ETL;
-Aprimorei conhecimento em testes unitários utilizando JUnit, criei os testes unitários para cobrir 80% do código backend e mais testes para integrar e validar o Git Flow CI/CD;
-Adquiri conhecimento e vivência em CI e GitFlow;
-Usei Docker pela primeira vez.
+
+Este foi o Projeto Integrador mais desafiador que tivemos ao decorrer do curso, foi aplicado todo o conhecimento adquirido nos semestres anteiores e tivemos que ir atrás de novos conhecimentos não estudado. Com isso pude aumentar minhas Skills.
+
+Aprimorei os conhecimentos em backend utilizando novas feautures como Query Dinâmica e Validação por Token, apliquei testes unitários e integração contínua com o CI;
+Através dos conhecimentos compartilhados entre o grupo aprendi sobre a ferramenta ETL;
+
+Aprimorei conhecimento em testes unitários utilizando JUnit, criei os testes unitários para cobrir o código backend e mais testes para integrar e validar o Git Flow CI/CD;
+
+Pela primeira vez utilizei o Docker para realizar a integração contínua em CI;
 
 **Soft Skills Efetivamente Desenvolvidas:**
-Continuamos aprimorando a comunicação, trabalho em equipe e ajuda mútua;
+
+Continuei desenvolvendo e melhorando a comunicação, trabalho em equipe e ajuda mútua;
+
 Tivemos que sair da nossa zona de conforto e buscar conhecimentos através de cursos extras e tirar dúvidas com os professores para conseguir desenvolver novas features da aplicação em que não tinhamos conhecimento e nem vivência;
-Ter um bom Planejamento, Resiliência e mais o método Scrum nos ajudou a cumprir todas as entregas e sprints do projeto.
+
+Conseguimos ter a inteligência e resiliência para construir um bom Planejamento. O método Scrum nos ajudou a cumprir todas as entregas e sprints do projeto.
