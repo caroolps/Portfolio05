@@ -219,21 +219,22 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 - OBS Studio/Kdenlive: É um programa de streaming e gravação gratuito. Usada para gravar vídeos das sprints.
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
-Desenvolvi o backend da aplicação criando as classes, utilizei query dinâmica, realizei testes unitários, participei do inicio do desenvolvimento do CI
+Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para desenvolver a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás dos conhecimentos exigidos em outras features.
+Portanto, optei por continuar no desenvolvimento do backend da aplicação criando as classes e demais camadas do sistema, no backend foi divido entre classes para integração com o frontend e classes para o ETL.
+No backend utilizei features novas que não tinha conhecimento como Query dinâmica na camada Repository para o fronted conseguir realizar filtragem de dados específicos.
+Implemente Testes Unitários, 
+Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab.
 
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
 **Hard Skills Efetivamente Desenvolvidas:**
-Aprimorei os conhecimentos em backend 
-Query Dinâmica
-Validação por Token
-Aprimorei conhecimento em testes unitários utilizando JUnit
-Conhecimento em CI e GitFlow
+Aprimorei os conhecimentos em backend utilizando novas feautures no backend como Query Dinâmica e Validação por Token;
+Conhecimento sobre a ferramenta ETL;
+Aprimorei conhecimento em testes unitários utilizando JUnit, criei os testes unitários para cobrir 80% do código backend e mais testes para integrar e validar o Git Flow CI/CD;
+Adquiri conhecimento e vivência em CI e GitFlow.
 
 **Soft Skills Efetivamente Desenvolvidas:**
-Trabalho em equipe
-Ajuda mutua
-Buscar conhecimentos através de cursos e tirar dúvidas com os professores
-Planejamento
-Resiliência
+Continuamos aprimorando a comunicação, trabalho em equipe e ajuda mútua;
+Tivemos que sair da nossa zona de conforto e buscar conhecimentos através de cursos extras e tirar dúvidas com os professores para conseguir desenvolver novas features da aplicação em que não tinhamos conhecimento e nem vivência;
+Ter um bom Planejamento, Resiliência e mais o método Scrum nos ajudou a cumprir todas as entregas e sprints do projeto.
