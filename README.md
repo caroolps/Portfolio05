@@ -219,11 +219,29 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 - OBS Studio/Kdenlive: É um programa de streaming e gravação gratuito. Usada para gravar vídeos das sprints.
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
-Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para desenvolver a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás dos conhecimentos exigidos em outras features.
-Portanto, optei por continuar no desenvolvimento do backend da aplicação criando as classes e demais camadas do sistema, no backend foi divido entre classes para integração com o frontend e classes para o ETL.
+Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para compor a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás das features que não tinhámos conhecimento.
+
+Portanto, optei por continuar no desenvolvimento do backend da aplicação criando as classes e demais camadas do sistema, no backend foram desenvolvidos as classes para integração com o frontend e para o ETL.
+
+![image](https://user-images.githubusercontent.com/61089745/164789664-7ac7c21b-e7b5-47f4-9137-2220ed495ff9.png)
+
+
 No backend utilizei features novas que não tinha conhecimento como Query dinâmica na camada Repository para o fronted conseguir realizar filtragem de dados específicos.
-Implemente Testes Unitários, 
+
+![image](https://user-images.githubusercontent.com/61089745/164790295-28316633-f3b0-4af6-8308-eeb14384cbf2.png)
+
+![image](https://user-images.githubusercontent.com/61089745/164790916-57154d14-2407-476b-8e3a-27a93d700716.png)
+
+
+Implemente Testes Unitários para cobertura do código e integração com o CI;
+
+![image](https://user-images.githubusercontent.com/61089745/164791120-277e2544-d782-4a49-bbb3-17e1b77a22c9.png)
+
+
 Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab.
+![image](https://user-images.githubusercontent.com/61089745/164791429-9f5b27f9-69c1-4a84-9248-cb9a1fe5ed1d.png)
+
+![image](https://user-images.githubusercontent.com/61089745/164791743-94a25e55-72a5-4e62-bf51-6a03cf813eea.png)
 
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
@@ -232,7 +250,8 @@ Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab.
 Aprimorei os conhecimentos em backend utilizando novas feautures no backend como Query Dinâmica e Validação por Token;
 Conhecimento sobre a ferramenta ETL;
 Aprimorei conhecimento em testes unitários utilizando JUnit, criei os testes unitários para cobrir 80% do código backend e mais testes para integrar e validar o Git Flow CI/CD;
-Adquiri conhecimento e vivência em CI e GitFlow.
+Adquiri conhecimento e vivência em CI e GitFlow;
+Usei Docker pela primeira vez.
 
 **Soft Skills Efetivamente Desenvolvidas:**
 Continuamos aprimorando a comunicação, trabalho em equipe e ajuda mútua;
