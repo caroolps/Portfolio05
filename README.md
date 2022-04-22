@@ -235,10 +235,11 @@ No backend utilizei features novas que não tinha conhecimento como Query dinâm
 
 Implemente Testes Unitários para cobertura do código e integração com o CI;
 
-![image](https://user-images.githubusercontent.com/61089745/164791120-277e2544-d782-4a49-bbb3-17e1b77a22c9.png)
+![image](https://user-images.githubusercontent.com/61089745/164792269-6d8a12bf-e999-4915-82d4-63926b337d0e.png)
 
 
 Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab.
+
 ![image](https://user-images.githubusercontent.com/61089745/164791429-9f5b27f9-69c1-4a84-9248-cb9a1fe5ed1d.png)
 
 ![image](https://user-images.githubusercontent.com/61089745/164791743-94a25e55-72a5-4e62-bf51-6a03cf813eea.png)
