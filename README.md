@@ -221,7 +221,7 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
-Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para compor a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás das features que não tinhámos conhecimento.
+Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para compor a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás das features que não tínhamos conhecimento.
 
 Portanto, optei por continuar no desenvolvimento do backend da aplicação criando as entidades e demais camadas do sistema.
 
@@ -252,7 +252,7 @@ Implementei Testes Unitários para cobertura do código e integração com o CI;
 ![image](https://user-images.githubusercontent.com/61089745/164792269-6d8a12bf-e999-4915-82d4-63926b337d0e.png)
 
 
-Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab, criando imagem no docker e configurando a pipeline.
+Participei do início do desenvolvimento do CI/CD da aplicação no GitLab, criando imagem no docker e configurando a pipeline.
 
 ![image](https://user-images.githubusercontent.com/61089745/164791429-9f5b27f9-69c1-4a84-9248-cb9a1fe5ed1d.png)
 
@@ -263,7 +263,7 @@ Participei do inicio do desenvolvimento do CI/CD da aplicação no GitLab, crian
 
 **Hard Skills Efetivamente Desenvolvidas:**
 
-Este foi o Projeto Integrador mais desafiador que tivemos ao decorrer do curso, foi aplicado todo o conhecimento adquirido nos semestres anteiores e tivemos que ir atrás de novos conhecimentos não estudado. Com isso pude aumentar minhas Skills.
+Este foi o Projeto Integrador mais desafiador que tivemos ao decorrer do curso, foi aplicado todo o conhecimento adquirido nos semestres anteiores e tivemos que ir atrás de novos conhecimentos não estudados. Com isso pude aumentar minhas Skills.
 
 Aprimorei os conhecimentos em backend utilizando novas feautures como Query Dinâmica e Validação por Token, apliquei testes unitários e integração contínua com o CI;
 Através dos conhecimentos compartilhados entre o grupo aprendi sobre a ferramenta ETL;
