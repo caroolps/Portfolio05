@@ -92,7 +92,7 @@ Seguindo essas premissas listadas acima, a Educalytics apresentará uma GUI por 
 
 2.3- SOLICITAÇÃO USANDO TOKEN ÚNICO;
 
-![image](https://user-images.githubusercontent.com/61089745/159180013-a0041a64-1b65-45d8-addf-41ac2479f773.png)
+![image](https://user-images.githubusercontent.com/61089745/164943290-850f703d-27b1-4854-b3dd-32f75d35b41d.png)
 
 2.4- INTEGRAÇÃO CONTÍNUA;
 
