@@ -263,12 +263,12 @@ Participei do início do desenvolvimento do CI/CD da aplicação no GitLab, cria
 
 **Hard Skills Efetivamente Desenvolvidas:**
 
-Este foi o Projeto Integrador mais desafiador que tivemos ao decorrer do curso, foi aplicado todo o conhecimento adquirido nos semestres anteiores e tivemos que ir atrás de novos conhecimentos não estudados. Com isso pude aumentar minhas Skills.
+Este foi o Projeto Integrador mais desafiador que tivemos ao decorrer do curso, foi aplicado todo o conhecimento adquirido nos semestres anteriores e tivemos que ir atrás de novos conhecimentos não estudados. Com isso pude aumentar minhas Skills.
 
 Aprimorei os conhecimentos em backend utilizando novas feautures como Query Dinâmica e Validação por Token, apliquei testes unitários e integração contínua com o CI;
 Através dos conhecimentos compartilhados entre o grupo aprendi sobre a ferramenta ETL;
 
-Aprimorei conhecimento em testes unitários utilizando JUnit, criei os testes unitários para cobrir o código backend e mais testes para integrar e validar o Git Flow CI/CD;
+Aprimorei meus conhecimentos em testes unitários utilizando JUnit, criei os testes unitários para cobrir o código backend e mais testes para integrar e validar o Git Flow CI/CD;
 
 Pela primeira vez utilizei o Docker para realizar a integração contínua em CI;
 
