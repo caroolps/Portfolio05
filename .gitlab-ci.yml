@@ -1,0 +1,35 @@
+default:
+  image: docker:latest
+
+services:
+  - docker:dind
+
+stages: 
+  - develop
+  - test
+  - build
+
+master-job:
+  stage: build
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+  script:
+    - echo "Só na master"
+    - docker build -t back-educalytics .
+    - echo "Finalizou a construção da imagem do DOCKER"
+
+homolog-job:
+  image: maven:3.6.3-jdk-11-slim
+  stage: test
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "homolog"'
+  script:
+    - mvn -Dtest=PerformanceRepositoryTest test
+    - echo "Só na homolog"
+
+develop-job:
+  stage: develop
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "develop"'
+  script:
+    - echo "Só na develop"

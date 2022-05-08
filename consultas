@@ -1,0 +1,9 @@
+SELECT AVG(acc_elap) from fact_participation;
+
+SELECT * from fact_participation ORDER BY acc_elap DESC;
+
+SELECT * from fact_participation, dim_student WHERE fact_participation.dim_student_std_id = dim_student.std_id ORDER BY acc_elap DESC LIMIT 10;
+
+SELECT * from fact_performance, dim_student WHERE fact_performance.std_id = dim_student.std_id ORDER BY pfc_std_grade DESC LIMIT 10;
+
+SELECT * from fact_performance, dim_student WHERE fact_performance.std_id = dim_student.std_id ORDER BY pfc_std_grade ASC LIMIT 10;

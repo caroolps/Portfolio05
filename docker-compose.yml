@@ -1,0 +1,48 @@
+version: '3.3'
+
+services:
+    app:
+      build:
+        context: ./
+        dockerfile: ./Dockerfile
+      image: rafaelestevam/backend-educalytics
+      ports:
+        - 8081:8081
+      depends_on:
+        - db
+      links:
+        - db
+
+    db:
+        image: mysql:5.7
+        build:
+          context: ./
+          dockerfile: ./mysql/Dockerfile
+        restart: always
+        container_name: my-db
+        ports:
+            - 3306:3306
+        environment:
+            MYSQL_DATABASE: educalytics_db
+            MYSQL_USER: educalytics
+            MYSQL_PASSWORD: educalytics
+            MYSQL_RANDOM_ROOT_PASSWORD: '1'
+        # volumes:
+        #     - db:/var/lib/mysql
+        #     - ./educalytics_db.sql:/docker-entrypoint-initdb.d/educalytics_db.sql
+
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:latest
+        container_name: my-phpmyadmin
+        links:
+            - db
+        ports:
+            - 3333:80
+        environment:
+            - PMA_ARBITRARY=1
+            
+networks:
+    back:
+
+volumes:
+    db:
