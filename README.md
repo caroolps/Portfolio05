@@ -221,7 +221,7 @@ Então, estudamos quais ferramentas servirão aos requisitos (não) funcionais:
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
-Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para compor a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás das features que não tínhamos conhecimento.
+Nesse projeto estavámos com uma equipe reduzida perto dos outros grupos da turma, o Projeto Integrador foi o mais desafiador com requisitos complexos e exigindo conhecimentos específicos para compor a aplicação. Com isso, decidimos dividir a equipe deixando os integrantes assumir as tarefas que mais tinham conhecimento para ganharmos tempo e posteriormente dedicarmos em correr atrás das features que não tínhamos habilidades.
 
 Portanto, optei por continuar no desenvolvimento do backend da aplicação criando as entidades e demais camadas do sistema.
 
